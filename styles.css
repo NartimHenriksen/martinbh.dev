@@ -100,14 +100,11 @@ footer {
   margin-bottom:40px;
 }
 
+/*from deleted blog page*/
 .dialogue {
   font-size: 18px;
   color: #818181;
   font-style: italic;
-}
-
-.blogentry{
-  background:#d3f7d0;
 }
 
 
@@ -148,10 +145,6 @@ footer {
   font-size: 18px;
   text-decoration: none;
 }
-
-
-
-
 
 .social-links a {
   display: inline-block;
