@@ -1,3 +1,3 @@
 #!/bin/bash
-gsutil rsync -r gs://staging.martinbh.dev gs://martinbh.dev
+gsutil rsync -r -d gs://staging.martinbh.dev gs://martinbh.dev
 
