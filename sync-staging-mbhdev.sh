@@ -1,2 +1,3 @@
 #!/bin/bash
-gsutil rsync -r -d site gs://staging.martinbh.dev
+gsutil -h Cache-Control:"Control:public, max-age=0" rsync -d -r site gs://staging.martinbh.dev
+
