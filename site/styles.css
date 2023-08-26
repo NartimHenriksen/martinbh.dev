@@ -1,10 +1,26 @@
+
+/* Desktop and Laptop*/
+@media screen and (min-width: 601px) {
+  body {
+    font-size: 1.2vw;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+  }
+}
+
+/*Mobile */
+@media screen and (max-width: 600px) {
+  
+}
+
+
 body {
   font-family: Arial, sans-serif;
-  font-size: 18px;
   margin: 0;
   padding: 0;
 }
-
 
 header {
   background-color: #4CAF50;
@@ -40,9 +56,6 @@ nav a {
 main {
   padding: 1em;
   margin: 20px;
-}
-main p {
-  text-align: justify;
 }
 
 main li {
@@ -97,12 +110,6 @@ footer {
   margin-left: 50px;
 }
 
-.pagetitle {
-  display:block;
-  font-size:40px;
-  margin-bottom:40px;
-}
-
 
 .hamburger {
     font-size: 25px;
@@ -128,7 +135,7 @@ footer {
 }
 
 .contact-info {
-  margin-top: 20px;
+  margin-top: 0.66vw;
 }
 
 .contact-info a {
@@ -141,15 +148,13 @@ footer {
 .fab{
   cursor: pointer;
   display: inline-block;
-  margin-right: 10px;
-  font-size: 18px;
+  margin-right: 0.33vw;
   text-decoration: none;
 }
 
 .social-links a {
   display: inline-block;
-  margin-right: 10px;
-  font-size: 18px;
+  margin-right: 0.33vw;
   text-decoration: none;
   color: #333;
 }
